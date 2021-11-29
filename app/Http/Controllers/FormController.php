@@ -17,6 +17,13 @@ class FormController extends Controller
           'email' => 'required | email | unique:forms',        
           'pass'=>'required | confirmed',
           'pass_confirmation' => 'required'
+        ],
+        [
+          'nombre.required' => 'El nombre es obligatorio y no puede contener números',
+          'email.required' => 'El email es obligatorio',
+          'email.email' => 'Debe respetar el siguiente formato: email@email.com',
+          'pass.required' => 'El campo contraseña es obligatorio y las que ingresó deben coincidir',
+          'pass_confirmation.required' => 'Recuerde solo repetir la contraseña ingresada',
         ]);
         //Guardamos en la DB
         $form = new Form;

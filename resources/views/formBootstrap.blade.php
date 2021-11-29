@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
@@ -9,12 +8,12 @@
     <!-- Font Awesome     -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="{{ mix('css/app.css') }}" type="text/css" rel="stylesheet"/>
-    <title>Laravel 8 - Validación de Forms</title>  
+    <title>Validación de Forms con Laravel 8</title>  
   </head>
   <body>   
     <div class="container mt-5">
         <div class="row">
-            <h2 class="text-center text-white mt-4">Laravel 8 - Validación de Forms</h2>
+            <h2 class="text-center text-white mt-4">Validación de Forms con Laravel 8</h2>
             <!-- Con esta variable traemos un arreglo con  todos los mensajes de error -->
             <!-- {{$errors}} -->                        
             <div class="col-lg-6 col-12 mx-auto">
